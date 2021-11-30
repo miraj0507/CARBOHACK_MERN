@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script data-ad-client="ca-pub-6210563665116581" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/user.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"
+      ></script>
+</head>
+<body>
+  <!--------------Preloader----------------->
+  <div class="preloader">
+    <canvas id='canvas'></canvas>
+      <div class="wrapper">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+          <span>Loading</span>
+      </div>
+  </div>
+  <!---------------------------------------->
+    <div class="box">
+      <div id="overlay">
+        <div class="image">
+          <div class="trick">
+  
+          </div>
+        </div>
+        <div class="text">{{ fullname }}</div>
+      <div class="text1">{{ state }}</div>
+    </div>
+  
+ 
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title ">
+            <div class="title  btn btn-danger btn-outline btn-lg">EMAIL</div>
+        </h4>
+      </div>
+  
+        <div class="panel-body">
+          {{ email }}
+        </div>
+      
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">        
+            <div class="title btn btn-danger btn-outline btn-lg">ENVIRONMENTAL POINTS</div>
+        </h4>
+      </div>
+        <div class="panel-body">
+          Collect your environment points
+        </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">        
+            <div class="title btn btn-danger btn-outline btn-lg">SHARE WITH FRIENDS</div>
+        </h4>
+      </div>
+        <div class="panel-body">
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">        
+          <a href="/MyAccount" style="text-decoration: none;">
+            <div class="title btn btn-danger btn-outline btn-lg">
+              BACK
+            </div>
+          </a>
+        </h4>
+      </div>
+    </div>
+  </div>
+</body>    
+<!---------------For Preloader------------------------>
+<script>
+  //after window is loaded completely 
+  window.onload = function(){
+      //hide the preloader
+      document.querySelector(".preloader").style.display = "none";
+  }
+</script>
+
+</html>
