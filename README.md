@@ -39,7 +39,7 @@
 
 ## DEMO VIDEO:
 
-### Watch the video here: https://youtu.be/UdkeWFFWnTg
+### Watch the video here: [DEMO](https://youtu.be/UdkeWFFWnTg)
 
 
 ## PROJECT IS LIVE AT:
